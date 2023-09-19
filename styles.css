@@ -130,9 +130,72 @@ header {
     border-radius: 4px;
 }
 
+main {
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-body {
+    width: 95%;
+    max-height: calc(89% - 1.6rem);
+    background-color: #fffb;
+    margin-top: .8rem;
+    border-radius: .8rem;
+    overflow: auto;
+}
+
+.table-body::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table-body::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+.table-body:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+table, th, td {
+    border-collapse: collapse; /* Closes the heading gaps or barricades */
+    padding: 1rem;
+    text-align: left;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--second-color);
+    color: white;
+}
+
+.status {
+    padding: .4rem 0;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.status.completed {
+    background-color: #86e49d;
+    color: #006b21;
+    padding: .4rem .8rem .4rem .8rem;
+}
+
+.status.pending {
+    background-color: #d893a3;
+    color: #b30021;
+}
+
+
 /* Posts */
 
-.post {
+/* .post {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-}
+} */
