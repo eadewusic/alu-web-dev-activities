@@ -60,6 +60,13 @@ header {
     padding: 18px 0;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
@@ -191,6 +198,23 @@ thead th {
     background-color: #d893a3;
     color: #b30021;
 }
+
+.tasks-link {
+    color: var(--second-color);
+    text-decoration: underline;
+}
+.other-pages {
+    float: right;
+    color: var(--second-color);
+}
+
+
+
+
+
+
+
+
 
 
 /* Posts */
