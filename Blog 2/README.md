@@ -2,7 +2,7 @@
 
 ## Activity
 
-- Create a website that shows what you've learned in this week's course. Include information about the following:
+Create a website that shows what you've learned in this week's course. Include information about the following:
 
 - Compound selectors (Examples: ul ul { list-style-type : square }).
 
