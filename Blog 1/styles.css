@@ -46,6 +46,7 @@ section {
 }
 
 header {
+    background-color: var(--container-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -208,18 +209,24 @@ thead th {
     color: var(--second-color);
 }
 
-
-
-
-
-
-
-
-
-
 /* Posts */
 
 /* .post {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
 } */
+
+/* Footer */
+
+footer {
+    background-color: var(--container-color);
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+}
+  
+footer p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: auto;
+}

@@ -102,6 +102,11 @@
     text-transform: uppercase;
   
   }
+
+  #desc  p::first-letter{
+    color: mediumpurple;
+    font-size: xx-large;
+  }
   
   .content {
     margin-right: 20rem;
