@@ -1,6 +1,6 @@
 ## This directory contains my exercise about tables for Front-end Week 3
 
-# Activity
+## Activity
 
 - Create a website that will show your weekly activities.
 - Use table to separate your activities daily (Example: Sun - Mon including the time) 

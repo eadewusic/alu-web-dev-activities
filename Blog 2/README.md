@@ -1,6 +1,6 @@
 ## This directory contains my exercise about tables for Front-end Week 4
 
-# Activity
+## Activity
 
 - Create a website that shows what you've learned in this week's course. Include information about the following:
 
