@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+  }
+  
+  header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+  }
+  
+  .header-text {
+    color: #fff;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 13px;
+  }
+  
+  span {
+    color: mediumpurple;
+  }
+  
+  .nav-bar {
+    display: flex;
+    padding: 1rem 3rem;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-bar a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .nav-links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-right: 3rem;
+  }
+  
+  .nav-links a:hover {
+    color: mediumpurple;
+  }
+  
+  /* --- Home section --- */
+  
+  .home {
+    width: 100%;
+    min-height: 440px;
+    background: #333;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-container {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .home-title {
+    font-size: 3.5rem;
+  }
+  
+  .home-subtitle {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  
+  /* --- body --- */
+  
+  .sec {
+    padding: 50px 100px;
+  }
+  
+  #desc, #content, #outcomes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  #desc h3, #content h3, #outcomes h3 {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  
+  }
+  
+  .content {
+    margin-right: 20rem;
+  }
+  
+  .content-heading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .outcomes {
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+    margin-right: 56rem;
+  }
+  
+  .outcomes-heading h4 {
+    margin-right: 20rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .outcomes-heading ul li {
+    margin-left: 1.5rem;
+  }
+  
+  .last-p {
+    margin-top: 3rem;
+  }
+  
+  /* --- Footer --- */
+  
+  footer {
+    background-color: #333;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.3517;
+    padding-bottom: auto;
+  }
