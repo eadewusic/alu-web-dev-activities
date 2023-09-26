@@ -17,3 +17,12 @@ Create a website that shows what you've learned in this week's course. Include i
 - Creating Layouts
 
 - Positioning - Using float and a Container
+
+## Codes Link on Replit
+This project was originally done using the [Replit](https://week-4-exercise.allan-gasbongas.repl.co/) platform. You can find the codes by clicking on the link in this paragraph.
+
+## View the blog on Replit
+Since the codes are originally on Replit, you can also view the finished look by clicking [here](https://replit.com/@Allan-GasbonGas/Week-4-Exercise). Feed your eyes!
+
+## Contact
+Send me a mail at [e.adewusi@alustudent.com](mailto:e.adewusi@alustudent.com) if you have any questions or require clarifications.
