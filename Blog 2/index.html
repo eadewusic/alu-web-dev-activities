@@ -10,106 +10,108 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+3:wght@200;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="nav-bar">
-        <div class="header-text">
-          <a href="#home"><h2>Group <span>One</span></h2></a>
-        </div>
-
-        <nav>
-            <ul class="nav-links">
-                <li>
-                    <a href="#desc">Description</a>
-                    <a href="#content">Content</a>
-                    <a href="#outcomes">Outcomes</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="home" id="home">
-        <div class="home-container">
-            <h2 class="home-title">Frontend Web Development</h2>
-            <p class="home-subtitle">This is Week 4's Exercise</p>    
-        </div>
-    </section>
-
-    <main>
-        <section class="sec">
-            <div>
-                <div id="desc">
-                    <h3>Descriptions of Aim and Content</h3>
-                    <p>The Front-end Web Development module aims to equip you, the student, with the essential skills and knowledge to create visually appealing and interactive web pages. You will learn about the key technologies used in front-end web development, including regular expressions, HTML, CSS, and JavaScript. The module will cover basic and advanced topics in each of these areas, with a focus on creating responsive web pages that adapt to different screen sizes and devices. By the end of the module, you will have a solid understanding of front-end web development and be prepared for further study or professional practice in the field.</p>
-                </div>
-
-                <div id="content">
-                    <h3>Indicative Content</h3>
-
-                    <div class="content">
-                        <ul>
-                            <li class="content-heading">Regular Expressions:</li>
-
-                            <ul>
-                                <li>Introduction to regular expressions and their use in searching and manipulating text data within web applications</li>
-                                <li>Creating regular expressions to match patterns in text data</li>
-                                <li>Advanced regular expressions techniques, such as look-around and back-references</li>
-                                <li>Using regular expressions to validate user input and sanitize data</li>
-                            </ul>
-
-                            <li class="content-heading">Basic and Advanced HTML/CSS:</li>
-
-                            <ul>
-                                <li>Introduction to HTML and its role in creating web pages</li>
-                                <li>Basic HTML tags and their use in structuring web pages</li>
-                                <li>Creating and formatting web page content using CSS</li>
-                                <li>Responsive design techniques using media queries and flexbox</li>
-                                <li>Advanced CSS techniques, such as animations and transitions</li>
-                            </ul>
-
-                            <li class="content-heading">Basic and Advanced JavaScript:</li>
-
-                            <ul>
-                                <li>Introduction to JavaScript and its use in creating interactive web applications</li>
-                                <li>JavaScript syntax, data types, and control structures</li>
-                                <li>Manipulating the Document Object Model (DOM) using JavaScript</li>
-                                <li>Event handling and creating event listeners</li>
-                                <li>Advanced JavaScript techniques, such as closures and prototypes</li>
-                            </ul>
-
-                            <li class="content-heading">Web Scraping using jQuery:</li>
-
-                            <ul>
-                                <li>Introduction to web scraping and its uses in data extraction</li>
-                                <li>Using jQuery selectors to extract data from web pages</li>
-                                <li>Processing and manipulating extracted data using JavaScript</li>
-                                <li>Storing extracted data in a structured format, such as JSON or CSV</li>
-                            </ul>
-                        </ul>
-                    </div>
-                </div>
-
-                <div id="outcomes">
-                    <h3>Learning Outcomes</h3>
-                    <p class="outcomes">Knowledge and Understanding</p>
-
-                    <div class="outcomes-heading">
-                        <h4>Upon completion of this module, you should be able to:</h4>
-
-                        <ul>
-                            <li>Understand and apply regular expressions to search and manipulate text data within web applications.</li>
-                            <li>Design and develop basic and advanced HTML/CSS web pages that are responsive and accessible.</li>
-                            <li>Develop interactive web applications using basic and advanced JavaScript programming concepts, including <br> DOM manipulation and event handling.</li>
-                            <li>Extract data from websites using web scraping techniques and jQuery.</li>
-                        </ul>
-
-                        <p class="last-p">The course material's goal is to give you a thorough grasp and comprehension of the foundational ideas and technologies utilized in front-end web development. This includes the ability to use regular expressions to manipulate text and data, create valid HTML and CSS code, and write basic and advanced JavaScript programs. You will also be able to use responsive design principles to make sure that your websites are usable and aesthetically pleasing across a variety of devices. Ultimately, the aim is to get you to become well-versed in front-end web development and equipped to produce web pages that are up to par with industry standards.</p>
-                    </div>
-                </div>
+    <section class="container">
+        <header class="nav-bar">
+            <div class="header-text">
+              <a href="#home"><h2>Group <span>One</span></h2></a>
+            </div>
+    
+            <nav id="left">
+                <ul class="nav-links">
+                    <li>
+                        <a href="#desc">Description</a>
+                        <a href="#content" class="co">Content</a>
+                        <a href="#outcomes" class="out">Outcomes</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section class="home" id="home">
+            <div class="home-container">
+                <h2 class="home-title">Frontend Web Development</h2>
+                <p class="home-subtitle">This is Week 4's Exercise</p>    
             </div>
         </section>
-
-        <footer>
-              <p>&copy; group one 2023</p>
-        </footer>
-    </main>
+    
+        <main>
+            <section class="sec">
+                <div>
+                    <div id="desc">
+                        <h3>Descriptions of Aim and Content</h3>
+                        <p>The Front-end Web Development module aims to equip you, the student, with the essential skills and knowledge to create <br> visually appealing and interactive web pages. You will learn about the key technologies used in front-end web development, <br> including regular expressions, HTML, CSS, and JavaScript. The module will cover basic and advanced topics in each of these <br> areas, with a focus on creating responsive web pages that adapt to different screen sizes and devices. By the end of the <br> module, you will have a solid understanding of front-end web development and be prepared for further study or <br> professional practice in the field.</p>
+                    </div>
+    
+                    <div id="content">
+                        <h3>Indicative Content</h3>
+    
+                        <div class="content">
+                            <ul>
+                                <li class="content-heading">Regular Expressions:</li>
+    
+                                <ul>
+                                    <li>Introduction to regular expressions and their use in searching and manipulating text data within <br> web applications</li>
+                                    <li>Creating regular expressions to match patterns in text data</li>
+                                    <li>Advanced regular expressions techniques, such as look-around and back-references</li>
+                                    <li>Using regular expressions to validate user input and sanitize data</li>
+                                </ul>
+    
+                                <li class="content-heading">Basic and Advanced HTML/CSS:</li>
+    
+                                <ul>
+                                    <li>Introduction to HTML and its role in creating web pages</li>
+                                    <li>Basic HTML tags and their use in structuring web pages</li>
+                                    <li>Creating and formatting web page content using CSS</li>
+                                    <li>Responsive design techniques using media queries and flexbox</li>
+                                    <li>Advanced CSS techniques, such as animations and transitions</li>
+                                </ul>
+    
+                                <li class="content-heading">Basic and Advanced JavaScript:</li>
+    
+                                <ul>
+                                    <li>Introduction to JavaScript and its use in creating interactive web applications</li>
+                                    <li>JavaScript syntax, data types, and control structures</li>
+                                    <li>Manipulating the Document Object Model (DOM) using JavaScript</li>
+                                    <li>Event handling and creating event listeners</li>
+                                    <li>Advanced JavaScript techniques, such as closures and prototypes</li>
+                                </ul>
+    
+                                <li class="content-heading">Web Scraping using jQuery:</li>
+    
+                                <ul>
+                                    <li>Introduction to web scraping and its uses in data extraction</li>
+                                    <li>Using jQuery selectors to extract data from web pages</li>
+                                    <li>Processing and manipulating extracted data using JavaScript</li>
+                                    <li>Storing extracted data in a structured format, such as JSON or CSV</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div id="outcomes">
+                        <h3>Learning Outcomes</h3>
+                        <p class="outcomes">Knowledge and Understanding</p>
+    
+                        <div class="outcomes-heading">
+                            <h4>Upon completion of this module, you should be able to:</h4>
+    
+                            <ul>
+                                <li>Understand and apply regular expressions to search and manipulate text data within web applications.</li>
+                                <li>Design and develop basic and advanced HTML/CSS web pages that are responsive and accessible.</li>
+                                <li>Develop interactive web applications using basic and advanced JavaScript programming concepts, including <br> DOM manipulation and event handling.</li>
+                                <li>Extract data from websites using web scraping techniques and jQuery.</li>
+                            </ul>
+    
+                            <p class="last-p">The course material's goal is to give you a thorough grasp and comprehension of the foundational ideas and technologies <br> utilized in front-end web development. This includes the ability to use regular expressions to manipulate text and data, <br> create valid HTML and CSS code, and write basic and advanced JavaScript programs. You will also be able to use <br> responsive design principles to make sure that your websites are usable and aesthetically pleasing across a variety <br> of devices. Ultimately, the aim is to get you to become well-versed in front-end web development and equipped to <br> produce web pages that are up to par with industry standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <footer>
+                <p>&copy; group one 2023</p>
+            </footer>
+        </main>
+    </section>
 </body>
 </html>
